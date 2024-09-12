@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Towing Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Towing Management System is designed to streamline the process for towing companies and provide easy access to vehicle information for users whose cars have been towed. The system offers a user-friendly platform for both towing companies and car owners, allowing for efficient management and tracking of towed vehicles.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### For Towing Companies:
+- **Secure Login**: Towing companies can log in and manage their operations.
+- **Towed Vehicle Management**: Companies can input and update details of towed vehicles, including towing date, location, and vehicle information.
+- **Admin Dashboard**: A dedicated admin page allows companies to efficiently manage and oversee their towed vehicle operations.
 
-### `npm start`
+### For Users (Car Owners):
+- **Search by License Plate**: Users can log in and search for their towed vehicle by entering the license plate number.
+- **Retrieve Towing Details**: The system provides detailed information on when and where the vehicle was towed.
+- **Contact Information**: Users can view the towing company’s contact details, including phone number and email.
+- **Location Mapping**: The system includes a map feature that shows the precise location where the car was towed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **Frontend**: React.js
+- **Backend**: Python, Flask
+- **Database**: SQL (SQLite)
+- **Authentication**: JWT (JSON Web Tokens)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Towing Companies**: Log in to input and manage towed vehicle information via the admin dashboard.
+- **Users**: Log in to search for towed vehicles using the license plate number and retrieve towing details and location.
